@@ -41,6 +41,6 @@ fi
 
 # Send email alert (optional, requires mailutils installed)
 if grep -q "High" "$LOG_FILE"; then
-  mail -s "System Health Alert" jangidbharat519@gmail.com < "$LOG_FILE"
+  mail -s "System Health Alert" your@gmail.com < "$LOG_FILE"
 fi
 
